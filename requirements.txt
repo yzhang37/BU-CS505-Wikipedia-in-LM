@@ -1,0 +1,6 @@
+requests~=2.25.1
+bs4~=0.0.1
+ujson~=4.0.2
+tqdm~=4.58.0
+nltk~=3.5
+beautifulsoup4~=4.9.3
