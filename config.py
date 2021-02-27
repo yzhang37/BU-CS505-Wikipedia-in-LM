@@ -11,9 +11,9 @@ if os.path.exists(COMPUTED):
 else:
     os.makedirs(COMPUTED)
 
-PATH_ORIGINAL = os.path.join(COMPUTED, "computed/wiki.txt")
-PATH_STRIP = os.path.join(COMPUTED, "computed/strip_lines.txt")
-PATH_NEWLINE = os.path.join(COMPUTED, "computed/new_lines.txt")
-PATH_WORDS = os.path.join(COMPUTED, "computed/word_lines.txt")
-PATH_LEM_WORDS = os.path.join(COMPUTED, "computed/lem_word_lines.txt")
-PATH_NO_STOP = os.path.join(COMPUTED, "computed/no_stop_word_lines.txt")
+PATH_ORIGINAL = os.path.join(COMPUTED, "wiki.txt")
+PATH_STRIP = os.path.join(COMPUTED, "strip_lines.txt")
+PATH_NEWLINE = os.path.join(COMPUTED, "new_lines.txt")
+PATH_WORDS = os.path.join(COMPUTED, "word_lines.txt")
+PATH_LEM_WORDS = os.path.join(COMPUTED, "lem_word_lines.txt")
+PATH_NO_STOP = os.path.join(COMPUTED, "no_stop_word_lines.txt")
