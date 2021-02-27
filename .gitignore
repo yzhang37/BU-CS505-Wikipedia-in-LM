@@ -1,0 +1,7 @@
+__pycache__/
+
+# ignore lib temp folders
+computed/
+
+# mac os files
+.DS_Store

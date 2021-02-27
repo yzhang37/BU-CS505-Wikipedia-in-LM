@@ -4,12 +4,14 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+import config
+
 RC_FINDENTRY = re.compile(r"(?=^/wiki/)([^:#=<>]*?)")
 
 cache_dict = set()
 entry = '/wiki/Coronavirus_disease_2019'
 
-f = open('wiki.txt', 'w')
+f = open(config.PATH_ORIGINAL, 'w')
 
 
 def scrape_recursive(entry, depth=1):
